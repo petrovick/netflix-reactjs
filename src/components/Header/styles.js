@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   min-height: 65px;
   width: 100%;
-  background: #333;
+  background: transparent;
 
   display: flex;
   flex-direction: row;
@@ -21,19 +21,19 @@ export const ImageLeft = styled.img`
   width: 100px;
 `;
 
-export const TextHome = styled.p`
+export const TextHome = styled.a`
   margin-left: 10px;
   align-self: center;
 `;
-export const TextSeries = styled.p`
+export const TextSeries = styled.a`
   margin-left: 10px;
   align-self: center;
 `;
-export const TextMovies = styled.p`
+export const TextMovies = styled.a`
   margin-left: 10px;
   align-self: center;
 `;
-export const TextAddedRecently = styled.p`
+export const TextAddedRecently = styled.a`
   margin-left: 10px;
   align-self: center;
 `;
